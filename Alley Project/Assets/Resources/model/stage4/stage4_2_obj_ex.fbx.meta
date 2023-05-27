@@ -1,0 +1,199 @@
+fileFormatVersion: 2
+guid: 0213e5c067faa25479a6d42be522903c
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: dai
+    100002: dai.001
+    100004: dai.002
+    100006: dai.003
+    100008: dai.004
+    100010: dai.005
+    100012: dai.006
+    100014: dai.007
+    100016: fence
+    100018: fence.001
+    100020: fence.002
+    100022: fence.003
+    100024: fence.004
+    100026: fence.005
+    100028: fence.006
+    100030: fence.007
+    100032: fence.008
+    100034: fence.009
+    100036: fence.010
+    100038: fence.011
+    100040: //RootNode
+    400000: dai
+    400002: dai.001
+    400004: dai.002
+    400006: dai.003
+    400008: dai.004
+    400010: dai.005
+    400012: dai.006
+    400014: dai.007
+    400016: fence
+    400018: fence.001
+    400020: fence.002
+    400022: fence.003
+    400024: fence.004
+    400026: fence.005
+    400028: fence.006
+    400030: fence.007
+    400032: fence.008
+    400034: fence.009
+    400036: fence.010
+    400038: fence.011
+    400040: //RootNode
+    2100000: logmat
+    2300000: dai
+    2300002: dai.001
+    2300004: dai.002
+    2300006: dai.003
+    2300008: dai.004
+    2300010: dai.005
+    2300012: dai.006
+    2300014: dai.007
+    2300016: fence
+    2300018: fence.001
+    2300020: fence.002
+    2300022: fence.003
+    2300024: fence.004
+    2300026: fence.005
+    2300028: fence.006
+    2300030: fence.007
+    2300032: fence.008
+    2300034: fence.009
+    2300036: fence.010
+    2300038: fence.011
+    3300000: dai
+    3300002: dai.001
+    3300004: dai.002
+    3300006: dai.003
+    3300008: dai.004
+    3300010: dai.005
+    3300012: dai.006
+    3300014: dai.007
+    3300016: fence
+    3300018: fence.001
+    3300020: fence.002
+    3300022: fence.003
+    3300024: fence.004
+    3300026: fence.005
+    3300028: fence.006
+    3300030: fence.007
+    3300032: fence.008
+    3300034: fence.009
+    3300036: fence.010
+    3300038: fence.011
+    4300000: dai
+    4300002: dai.001
+    4300004: dai.002
+    4300006: dai.003
+    4300008: dai.004
+    4300010: dai.005
+    4300012: dai.006
+    4300014: dai.007
+    4300016: fence
+    4300018: fence.001
+    4300020: fence.002
+    4300022: fence.003
+    4300024: fence.004
+    4300026: fence.005
+    4300028: fence.006
+    4300030: fence.007
+    4300032: fence.008
+    4300034: fence.009
+    4300036: fence.010
+    4300038: fence.011
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: logmat
+    second: {fileID: 2100000, guid: 106369b8143b06c448cc2fd7a29c850b, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 1
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

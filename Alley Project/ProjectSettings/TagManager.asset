@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Fire
+  - ground
+  - bullet
+  - red
+  - coin
+  - exp
+  - item
+  - enemy
+  - attack
+  - Ground
+  - subCamera
+  - knock
+  - attack2
+  - Destroy
+  - wall
+  - skill
+  - circle
+  - bossA
+  - rabbit
+  - Bullet
+  - not
+  - clone
+  - original
+  - noeffect
+  - second
+  - boss
+  - area
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PostProcessing
+  - Ground
+  - MC
+  - BC
+  - Model
+  - inv
+  - On
+  - NoWater
+  - Knife
+  - vlight
+  - Kamera
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

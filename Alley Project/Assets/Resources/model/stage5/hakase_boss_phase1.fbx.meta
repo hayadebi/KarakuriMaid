@@ -1,0 +1,351 @@
+fileFormatVersion: 2
+guid: 94b3a3fb223375f4493d00185d4d1d9d
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: bighand_left
+    100002: bighand_right
+    100004: biglefdownhand
+    100006: biglefdownhand_end
+    100008: biglefuphand
+    100010: bigrightdownhand
+    100012: bigrightdownhand_end
+    100014: bigrightuphand
+    100016: body
+    100018: downbody
+    100020: eye
+    100022: hakase
+    100024: //RootNode
+    100026: head
+    100028: head_end
+    100030: leftdownleg
+    100032: leftdownleg_end
+    100034: leftupleg
+    100036: minihand_left
+    100038: minihand_right
+    100040: minilefthand
+    100042: minilefthand_end
+    100044: minileftuphand
+    100046: minileg_left
+    100048: minileg_left.001
+    100050: minirighthand
+    100052: minirighthand_end
+    100054: minirightuphand
+    100056: rightdownleg
+    100058: rightdownleg_end
+    100060: rightupleg
+    100062: upbody
+    100064: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+    400000: bighand_left
+    400002: bighand_right
+    400004: biglefdownhand
+    400006: biglefdownhand_end
+    400008: biglefuphand
+    400010: bigrightdownhand
+    400012: bigrightdownhand_end
+    400014: bigrightuphand
+    400016: body
+    400018: downbody
+    400020: eye
+    400022: hakase
+    400024: //RootNode
+    400026: head
+    400028: head_end
+    400030: leftdownleg
+    400032: leftdownleg_end
+    400034: leftupleg
+    400036: minihand_left
+    400038: minihand_right
+    400040: minilefthand
+    400042: minilefthand_end
+    400044: minileftuphand
+    400046: minileg_left
+    400048: minileg_left.001
+    400050: minirighthand
+    400052: minirighthand_end
+    400054: minirightuphand
+    400056: rightdownleg
+    400058: rightdownleg_end
+    400060: rightupleg
+    400062: upbody
+    400064: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+    2100000: palette
+    2100002: metal
+    2100004: coal
+    2100006: dou
+    2100008: lightred
+    4300000: hakase
+    4300002: body
+    4300004: minihand_left
+    4300006: minihand_right
+    4300008: eye
+    4300010: minileg_left
+    4300012: minileg_left.001
+    4300014: bighand_left
+    4300016: bighand_right
+    7400000: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|doctor1_A1"
+    7400002: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|doctor1_A2"
+    7400004: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|doctor1_A3"
+    7400006: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|doctor1_A4"
+    7400008: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|doctor1_stand"
+    9500000: //RootNode
+    13700000: bighand_left
+    13700002: bighand_right
+    13700004: body
+    13700006: eye
+    13700008: hakase
+    13700010: minihand_left
+    13700012: minihand_right
+    13700014: minileg_left
+    13700016: minileg_left.001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: coal
+    second: {fileID: 2100000, guid: ea8fe46c164f92f4e890e20892699ce9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dou
+    second: {fileID: 2100000, guid: 91d8a061a98271b42b3a0abd3aaf5078, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lightred
+    second: {fileID: 2100000, guid: 9aba315b8d1728c45ad5fb01f0767618, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal
+    second: {fileID: 2100000, guid: b8d07997f01cc294db992ee5b2e5c4e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: palette
+    second: {fileID: 2100000, guid: cca188f3a5e9f7f40a171c6e37961b3c, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|doctor1_A1"
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|doctor1_A1"
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|doctor1_A2"
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|doctor1_A2"
+      firstFrame: 0
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|doctor1_A3"
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|doctor1_A3"
+      firstFrame: 0
+      lastFrame: 28
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|doctor1_A4"
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|doctor1_A4"
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|doctor1_stand"
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|doctor1_stand"
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,331 @@
+fileFormatVersion: 2
+guid: b130f0e6e368fce44af8af493095f854
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: body
+    100002: Bone
+    100004: Bone_end
+    100006: Bone_L.001
+    100008: Bone_L.002
+    100010: Bone_L.002_end
+    100012: Bone_L.003
+    100014: Bone_L.004
+    100016: Bone_L.004_end
+    100018: Bone_L.005
+    100020: Bone_L.006
+    100022: Bone_L.006_end
+    100024: Bone_R.001
+    100026: Bone_R.002
+    100028: Bone_R.002_end
+    100030: Bone_R.003
+    100032: Bone_R.004
+    100034: Bone_R.004_end
+    100036: Bone_R.005
+    100038: Bone_R.006
+    100040: Bone_R.006_end
+    100042: //RootNode
+    100044: head
+    100046: leftdownleg
+    100048: leftmidleleg
+    100050: leftupleg
+    100052: rightdownleg
+    100054: rightmidleleg
+    100056: rightupleg
+    100058: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+    400000: body
+    400002: Bone
+    400004: Bone_end
+    400006: Bone_L.001
+    400008: Bone_L.002
+    400010: Bone_L.002_end
+    400012: Bone_L.003
+    400014: Bone_L.004
+    400016: Bone_L.004_end
+    400018: Bone_L.005
+    400020: Bone_L.006
+    400022: Bone_L.006_end
+    400024: Bone_R.001
+    400026: Bone_R.002
+    400028: Bone_R.002_end
+    400030: Bone_R.003
+    400032: Bone_R.004
+    400034: Bone_R.004_end
+    400036: Bone_R.005
+    400038: Bone_R.006
+    400040: Bone_R.006_end
+    400042: //RootNode
+    400044: head
+    400046: leftdownleg
+    400048: leftmidleleg
+    400050: leftupleg
+    400052: rightdownleg
+    400054: rightmidleleg
+    400056: rightupleg
+    400058: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+    2100000: headglass
+    2100002: body
+    2100004: redglass
+    4300000: head
+    4300002: body
+    4300004: rightmidleleg
+    4300006: leftmidleleg
+    4300008: leftupleg
+    4300010: leftdownleg
+    4300012: rightupleg
+    4300014: rightdownleg
+    7400000: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|hakaseSecond_stand"
+    7400002: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|hakaseSecond_A1"
+    7400004: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|hakaseSecond_A2"
+    7400006: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|hakaseSecond_A3"
+    7400008: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|hakaseSecond_A4"
+    9500000: //RootNode
+    13700000: body
+    13700002: head
+    13700004: leftdownleg
+    13700006: leftmidleleg
+    13700008: leftupleg
+    13700010: rightdownleg
+    13700012: rightmidleleg
+    13700014: rightupleg
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: body
+    second: {fileID: 2100000, guid: 5f0e4c96fded7824eb0905c465330f5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: headglass
+    second: {fileID: 2100000, guid: e26e0480b3cf8b84e8f79946d5099039, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: redglass
+    second: {fileID: 2100000, guid: ddd3122958df33846992c45a272bbb8d, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|hakaseSecond_A1"
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|hakaseSecond_A1"
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|hakaseSecond_A2"
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|hakaseSecond_A2"
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|hakaseSecond_A3"
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|hakaseSecond_A3"
+      firstFrame: 0
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|hakaseSecond_A4"
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|hakaseSecond_A4"
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|hakaseSecond_stand"
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|hakaseSecond_stand"
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

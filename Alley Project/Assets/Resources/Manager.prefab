@@ -1,0 +1,874 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7269528470168564498
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8114925339981177739}
+  - component: {fileID: 7826097448775346248}
+  m_Layer: 0
+  m_Name: Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8114925339981177739
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7269528470168564498}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.1310561, y: 3.626763, z: 29.051102}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7826097448775346248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7269528470168564498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7495b4b82f32dbd48bb51ca22314e9f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  houseTrg: 0
+  isEnglish: 0
+  walktrg: 1
+  Coin: 0
+  bossbattletrg: 0
+  maxO8: 100
+  O8: 100
+  ESCtrg: 0
+  password: 
+  over: 0
+  setmenu: 0
+  itemhand: -1
+  txtget: 
+  endtitle: 0
+  EventNumber: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  pushtrg: 0
+  clearTime: 0
+  clearTime2: 0
+  posX: 0
+  posY: 0
+  posZ: 0
+  setrg: -1
+  stageNumber: 1
+  audioMax: 0.16
+  mode: 1
+  kando: 2
+  siya: 60
+  ItemID:
+  - itemname: "\u533B\u7642\u30AD\u30C3\u30C8"
+    itemscript: "\u30AB\u30E9\u30AF\u30EA\u3092\u305D\u306E\u5834\u3067\u3059\u3050\u4FEE\u7406\u3067\u304D\u308B\u5DE5\u5177\u7BB1"
+    itemimage: {fileID: 8400000, guid: 7b3290a779cd20d4aa1efa771c8cc1a4, type: 2}
+    eventnumber: 1
+    itemprice: 8
+    itemnumber: 0
+    itemobj: {fileID: 5541973336188810777, guid: 8d209d1613667c14a944cd3770b4dca2,
+      type: 3}
+    itemname2: Medical Kit
+    itemscript2: A toolbox to repair karakuri right on the spot
+    gettrg: 0
+  - itemname: "\u9306\u6B62\u3081\u30B9\u30D7\u30EC\u30FC"
+    itemscript: "\u96E8\u306E\u5F71\u97FF\u3067\u9306\u3073\u305F\u90E8\u5206\u3092\u56DE\u5FA9\u3067\u304D\u308B\u30B9\u30D7\u30EC\u30FC"
+    itemimage: {fileID: 8400000, guid: 1b0bb95e1b5130546932915120a7fdf4, type: 2}
+    eventnumber: 2
+    itemprice: 6
+    itemnumber: 0
+    itemobj: {fileID: 6677829540345615467, guid: d2f9983e73848dc419fac27111eb24c6,
+      type: 3}
+    itemname2: Anti-corrosive spray
+    itemscript2: Spray that can recover rusted areas due to rain.
+    gettrg: 0
+  - itemname: "\u6B66\u5668\u5F37\u5316\u30AD\u30C3\u30C8"
+    itemscript: "\u88C5\u5099\u4E2D\u306E\u6B66\u5668\u3092\u5F37\u5316\u3067\u304D\u308B\u5DE5\u5177\u7BB1\u3002\u5404\u6B66\u5668\u6700\u59275\u56DE\u307E\u3067"
+    itemimage: {fileID: 8400000, guid: 9083c9f2584919a45b7ff8d06b9d1478, type: 2}
+    eventnumber: 5
+    itemprice: 12
+    itemnumber: 0
+    itemobj: {fileID: 7310361665661046659, guid: 25a809c8d94c5b8459f7455c39d024a6,
+      type: 3}
+    itemname2: Weapon Enhancement Kit
+    itemscript2: A toolbox that can be used to strengthen the weapon being equipped.Up
+      to 5 times for each weapon
+    gettrg: 0
+  - itemname: "\u81EA\u52D5\u56DE\u5FA9AI"
+    itemscript: "30\u79D2\u9593\u81EA\u52D5\u56DE\u5FA9\u3092\u4ED8\u4E0E\u3057\u3066\u304F\u308C\u308BAI\u3092\u53EC\u559A\u3059\u308B"
+    itemimage: {fileID: 8400000, guid: 9dac9c4db1f9b6741982b253ee39393e, type: 2}
+    eventnumber: 7
+    itemprice: 20
+    itemnumber: 0
+    itemobj: {fileID: 8230081367391244176, guid: 50e01dab1339e194cb9cbb4bbc33da2e,
+      type: 3}
+    itemname2: Automatic recovery AI
+    itemscript2: Summons an AI that grants automatic recovery for 30 seconds.
+    gettrg: 0
+  - itemname: "\u5C0F\u578B\u30BB\u30FC\u30D6\u30DD\u30A4\u30F3\u30C8"
+    itemscript: "\u5927\u4F53\u306E\u5834\u6240\u3067\u3044\u3064\u3067\u3082\u30BB\u30FC\u30D6\u3067\u304D\u308B\u6D88\u8CBB\u30A2\u30A4\u30C6\u30E0"
+    itemimage: {fileID: 8400000, guid: 7b8ce61748d5b7c46920043022482ed8, type: 2}
+    eventnumber: 4
+    itemprice: 16
+    itemnumber: 0
+    itemobj: {fileID: 5425925392313682927, guid: 73e7ea5c275253e40ba89e38d23c0dad,
+      type: 3}
+    itemname2: Small save point
+    itemscript2: Consumable items that can be saved at any time in most places.
+    gettrg: 0
+  - itemname: "\u81EA\u52D5\u653B\u6483AI"
+    itemscript: "30\u79D2\u9593\u81EA\u52D5\u3067\u6575\u306B\u653B\u6483\u3057\u3066\u304F\u308C\u308BAI\u3092\u53EC\u559A\u3059\u308B"
+    itemimage: {fileID: 8400000, guid: 496e73b6c3707264daab68ddc97dbea1, type: 2}
+    eventnumber: 8
+    itemprice: 30
+    itemnumber: 0
+    itemobj: {fileID: 870440474931423152, guid: ae97e69c6270c1441959dafa91f7631c,
+      type: 3}
+    itemname2: Automatic Attack AI
+    itemscript2: Summon an AI that will automatically attack enemies for 30 seconds.
+    gettrg: 0
+  - itemname: "\u6614\u306E\u30B2\u30FC\u30E0\u6A5F"
+    itemscript: "\u30BD\u30D5\u30C8\u3082\u6301\u3063\u3066\u3044\u308B\u3068\u30DF\u30CB\u30B2\u30FC\u30E0\u3092\u904A\u3079\u308B\u3089\u3057\u3044\u30B3\u30EC\u30AF\u30B7\u30E7\u30F3\u30A2\u30A4\u30C6\u30E0\u3002"
+    itemimage: {fileID: 8400000, guid: aa65471b7328d4241a239236112552dc, type: 2}
+    eventnumber: -1
+    itemprice: 50
+    itemnumber: 0
+    itemobj: {fileID: 3897709159739715760, guid: 53abc02201cc80543bde611a003fed3c,
+      type: 3}
+    itemname2: Old game consoles
+    itemscript2: A collection item that apparently allows you to play mini-games if
+      you also have the software.
+    gettrg: 0
+  - itemname: "\u30CF\u30C3\u30C8\u30B3\u30D7\u30BF\u30FC"
+    itemscript: "\u535A\u58EB\u304C\u958B\u767A\u3057\u305F\u3044\u3064\u3067\u3082\u96C6\u843D\u3078\u5E30\u308C\u308B\u6D88\u8CBB\u30A2\u30A4\u30C6\u30E0\u3002"
+    itemimage: {fileID: 8400000, guid: c5395640b8826e04bb41d5f5890da8f6, type: 2}
+    eventnumber: 3
+    itemprice: 9
+    itemnumber: 0
+    itemobj: {fileID: 4922248662044220699, guid: d89b390873b77bd44b2c1d4b04387152,
+      type: 3}
+    itemname2: Hatcopter
+    itemscript2: A consumption item developed by the doctor that allows you to return
+      to the village at any time.
+    gettrg: 0
+  - itemname: "\u5E78\u904B\u306E\u8C5A\u8CAF\u91D1\u7BB1"
+    itemscript: "\u4F7F\u7528\u3059\u308B\u3068\u4E00\u5B9A\u6642\u9593\u3001\u30B3\u30A4\u30F3\u306E\u7372\u5F97\u91CF\u304C\u5897\u3048\u308B\u6D88\u8CBB\u30A2\u30A4\u30C6\u30E0\u3002"
+    itemimage: {fileID: 8400000, guid: 19ffc61bc1504b74dbab864406a9bcbc, type: 2}
+    eventnumber: 9
+    itemprice: 12
+    itemnumber: 0
+    itemobj: {fileID: 3865460003068288045, guid: 76d0ac195f9b0684f849b868bc4d82c4,
+      type: 3}
+    itemname2: Lucky pig piggy bank
+    itemscript2: A consumption item that increases the amount of coins you earn for
+      a certain amount of time when used.
+    gettrg: 0
+  - itemname: "3DS\u30BD\u30D5\u30C8\uFF1C\u3046\u3093\u3061\u3080\u3089\uFF1E"
+    itemscript: "\u672A\u3060\u306B\u4F38\u3073\u3066\u3044\u308B\u4F1D\u8AAC\u306E\u30D0\u30AB\u30DB\u30E9\u30B2\u30FC\u306A\u30B3\u30EC\u30AF\u30B7\u30E7\u30F3\u30A2\u30A4\u30C6\u30E0\u3002"
+    itemimage: {fileID: 8400000, guid: 5dcebba76950e1a4b9f76560b4eca3ee, type: 2}
+    eventnumber: -1
+    itemprice: 0
+    itemnumber: 0
+    itemobj: {fileID: 7862749720378590159, guid: 5797c2a9c1dc89b4bb5ef1615209e8fa,
+      type: 3}
+    itemname2: 3DS soft<Poop village>
+    itemscript2: A legendary and still popular silly horror game collection item.
+    gettrg: 0
+  - itemname: "\u30C7\u30D3\u30FB\u30B3\u30FC\u30E9"
+    itemscript: "\u30C7\u30D3\u793E\u304C\u958B\u767A\u3057\u305F\u30AB\u30E9\u30AF\u30EA\u7528\u98F2\u307F\u7269\u3002\u98F2\u3080\u3068\u9306\u3073\u306B\u304F\u304F\u306A\u308A\u3001\u30B2\u30FC\u30B8\u304C\u3061\u3087\u3063\u3068\u56DE\u5FA9\u3059\u308B\u3002"
+    itemimage: {fileID: 8400000, guid: bccd6f0de11413949a7c8882e26b88c6, type: 2}
+    eventnumber: 11
+    itemprice: 4
+    itemnumber: 0
+    itemobj: {fileID: 3207492460145879042, guid: 6dcedf461ad0b4d42b306cdd1efa2f2d,
+      type: 3}
+    itemname2: "Devi\u30FBCola"
+    itemscript2: A drink for Karakuri developed by Debi. Drinking it prevents rusting
+      and restores the gauge a bit.
+    gettrg: 0
+  - itemname: "\u30C7\u30D3\u30FB\u30A2\u30A4\u30B9\u30AF\u30EA\u30FC\u30E0"
+    itemscript: "\u30C7\u30D3\u793E\u304C\u958B\u767A\u3057\u305F\u30AB\u30E9\u30AF\u30EA\u7528\u30A2\u30A4\u30B9\u3002\u98DF\u3079\u308B\u3068\u640D\u50B7\u3092\u3061\u3087\u3063\u3068\u3060\u3051\u56DE\u5FA9\u3055\u305B\u308B\u3002"
+    itemimage: {fileID: 8400000, guid: a536e840a97562d418041dd75c0cdda3, type: 2}
+    eventnumber: 10
+    itemprice: 3
+    itemnumber: 0
+    itemobj: {fileID: 466672719032761420, guid: 2a7c42361df69f143b4f5ebcb36e636d,
+      type: 3}
+    itemname2: "Debi\u30FBIce Cream"
+    itemscript2: Ice cream for Karakuri developed by Debi. When eaten, it heals damage
+      slightly.
+    gettrg: 0
+  - itemname: "3DS\u30BD\u30D5\u30C8<\u30E2\u30CE\u30AF\u30ED\u5E7C\u5973>"
+    itemscript: "\u4EBA\u683C\u3092\u5165\u308C\u66FF\u3048\u3066\u91CD\u529B\u3092\u64CD\u4F5C\u3057\u306A\u304C\u3089\u9032\u3081\u308B\u30A2\u30AF\u30B7\u30E7\u30F3\u6027\u306E\u9AD8\u3044\u30B2\u30FC\u30E0\u3002\u4E00\u90E8\u5B9F\u6CC1\u8005\u9054\u306F\u305D\u306E\u96E3\u6613\u5EA6\u306B\u7D76\u671B\u3057\u305F\u3002"
+    itemimage: {fileID: 8400000, guid: 02d793c06acc958428f2796dd4f6a893, type: 2}
+    eventnumber: -1
+    itemprice: 0
+    itemnumber: 0
+    itemobj: {fileID: 5768319036560855215, guid: 92b0eb25512511f40a3a9dc67bfe9987,
+      type: 3}
+    itemname2: 3DS soft<Monochrome girl>
+    itemscript2: An action-packed game where you switch personalities and manipulate
+      gravity to advance. Some of the players despaired at the difficulty level.
+    gettrg: 0
+  - itemname: "\u30E6\u30CB\u30E0\u30FC\u30B7\u30E5"
+    itemscript: "\u30AB\u30E9\u30AF\u30EA\u306B\u5F71\u97FF\u3092\u53CA\u307C\u3059\u3068\u8A00\u308F\u308C\u3066\u3044\u308B\u672A\u77E5\u306E\u30AD\u30CE\u30B3\u3002\u4F7F\u7528\u3059\u308B\u3068\u30EC\u30D9\u30EB\u304C1\u3064\u4E0A\u304C\u308B\u3002"
+    itemimage: {fileID: 8400000, guid: 225210a70d949d14292b79881fe2cc2a, type: 2}
+    eventnumber: 12
+    itemprice: 50
+    itemnumber: 0
+    itemobj: {fileID: 8528579223870035894, guid: 1831874fdb987b340a38feb8c4bf9efe,
+      type: 3}
+    itemname2: Universe Moosh
+    itemscript2: An unknown mushroom that is said to affect karakuri. When used, it
+      raises your level by one.
+    gettrg: 0
+  - itemname: "3DS\u30BD\u30D5\u30C8<\u30AB\u30E9\u30AF\u30EA\u30E1\u30A4\u30C9>"
+    itemscript: "\u30E1\u30A4\u30C9\u304C\u7D42\u672B\u4E16\u754C\u3067\u8A18\u61B6\u3092\u63A2\u3059\u30B2\u30FC\u30E0\u3002\u67D0\u958B\u767A\u8005\u306E\u4E2D\u3067\u306F\u4E00\u756A\u306E\u9577\u671F\u4F5C\u54C1\u3067\u3001\u5168\u529B\u3067\u529B\u3092\u5165\u308C\u3066\u308B\u3089\u3057\u3044\u2026\u306A\u3093\u3067\u79C1\u304C\u6620\u3063\u3066\u308B\u3093\u3060\u308D\u3046\uFF1F"
+    itemimage: {fileID: 8400000, guid: ceeef43751edb974d9a4aca978c05851, type: 2}
+    eventnumber: -1
+    itemprice: 0
+    itemnumber: 0
+    itemobj: {fileID: 5124053184950697980, guid: 3d684f22c01f7134bb626e495d20c39d,
+      type: 3}
+    itemname2: 3DS soft<Karakuri maid>
+    itemscript2: 'A 3D action shooting game where a maid searches for memories in
+      an apocalyptic world. '
+    gettrg: 0
+  - itemname: "3DS\u30BD\u30D5\u30C8<\u30B9\u30E9\u30A4\u30E0\u30C7\u30A3\u30B9\u30C8\u30D4\u30A2>"
+    itemscript: "\u5BC6\u304B\u306B\u958B\u767A\u304C\u59CB\u307E\u3063\u3066\u308B\u6B21\u56DE\u4F5C
+      \u30C0\u30FC\u30AF\u3067\u53EF\u611B\u30443D ARPG\u3089\u3057\u3044\u2026\uFF1F"
+    itemimage: {fileID: 8400000, guid: 0f5eb98a5cef53f40899c0834bd9675f, type: 2}
+    eventnumber: -1
+    itemprice: 0
+    itemnumber: 0
+    itemobj: {fileID: 5124053184950697980, guid: 3d684f22c01f7134bb626e495d20c39d,
+      type: 3}
+    itemname2: 3DS soft<Slime Dystopia>
+    itemscript2: "The next title that is secretly under development. It seems to be
+      a dark and cute 3D ARPG\u2026\uFF1F"
+    gettrg: 0
+  WeaponID:
+  - itemname: S&W 642
+    itemscript: "\u6A19\u6E96\u7684\u306A\u8EFD\u91CF\u30EA\u30DC\u30EB\u30D0\u30FC\u3002"
+    itemimage: {fileID: 8400000, guid: 2aabb29632e1c1b4184fa6ad4cf89e29, type: 2}
+    upAttack: 1
+    itemprice: 12
+    getTrigger: 0
+    itemobj: {fileID: 8859226811635142171, guid: 0ffdc673f4872244d80add1efb5ac6fe,
+      type: 3}
+    shotobj: {fileID: 3732320668543505093, guid: 8331b6c276c85894e97a9331c5798226,
+      type: 3}
+    gunmode: 
+    bulletspeed: 25
+    shotmaxtime: 1
+    roadmaxtime: 3
+    maxbulletnumber: 8
+    bulletnumber: 8
+    itemname2: S&W 642
+    itemscript2: Standard lightweight revolver.
+    inputeventnumber: 0
+    strengthen: 0
+  - itemname: "\u30EC\u30DF\u30F3\u30C8\u30F3M870"
+    itemscript: "\u5B89\u5B9A\u3057\u305F\u6027\u80FD\u3068\u4FE1\u983C\u6027\u306E\u9AD8\u3055\u304C\u8A55\u4FA1\u3055\u308C\u3066\u3044\u308B\u30B7\u30E7\u30C3\u30C8\u30AC\u30F3\u3002"
+    itemimage: {fileID: 8400000, guid: eea3678c540ca1746a82f47b54e6b026, type: 2}
+    upAttack: 3
+    itemprice: 20
+    getTrigger: 0
+    itemobj: {fileID: 1867575172505466862, guid: cfc703d03b64f444b922b79b22357f0e,
+      type: 3}
+    shotobj: {fileID: 7874976608649196746, guid: 2e6c1da9da65b3d4fbcf546e1102ed82,
+      type: 3}
+    gunmode: 
+    bulletspeed: 32
+    shotmaxtime: 1.4
+    roadmaxtime: 4
+    maxbulletnumber: 8
+    bulletnumber: 8
+    itemname2: Remington M870
+    itemscript2: A shotgun that is highly regarded for its stable performance and
+      reliability.
+    inputeventnumber: 2
+    strengthen: 0
+  - itemname: Kar98k
+    itemscript: "\u7B2C\u4E8C\u6B21\u4E16\u754C\u5927\u6226\u3092\u901A\u3058\u3066\u5E83\u304F\u4E3B\u529B\u3068\u3057\u3066\u904B\u7528\u3055\u308C\u305F\u5C0F\u9283\u3002"
+    itemimage: {fileID: 8400000, guid: 27b77bf9db4f93d48b38e2771b58fe33, type: 2}
+    upAttack: 5
+    itemprice: 16
+    getTrigger: 0
+    itemobj: {fileID: 8993237879143639720, guid: c489708497ad2b6499f96d9483ed85ce,
+      type: 3}
+    shotobj: {fileID: 6020212921086269159, guid: b4e897fb966487247b16c07480490216,
+      type: 3}
+    gunmode: 
+    bulletspeed: 40
+    shotmaxtime: 2.3
+    roadmaxtime: 3
+    maxbulletnumber: 5
+    bulletnumber: 5
+    itemname2: Kar98k
+    itemscript2: A rifle that was widely used as a mainstay throughout World War II.
+    inputeventnumber: 2
+    strengthen: 0
+  - itemname: "\u30E9\u30D3\u30C3\u30C8\u30E9\u30F3\u30C1\u30E3\u30FC"
+    itemscript: "\u30AA\u30EA\u30B8\u30F3\u535A\u58EB\u306E\u7814\u7A76\u306B\u3088\u3063\u3066\u3001\u30A6\u30B5\u30AE\u306E\u8DF3\u529B\u3092\u5229\u7528\u3057\u3066\u4F5C\u3089\u308C\u305F\u8DF3\u5F3E\u9283\u3002"
+    itemimage: {fileID: 8400000, guid: 733a1d1d200554941b89ac240104ecef, type: 2}
+    upAttack: 4
+    itemprice: 24
+    getTrigger: 0
+    itemobj: {fileID: 7530833776420643986, guid: aca43d2eac1827d4eb434d9ed1e4debb,
+      type: 3}
+    shotobj: {fileID: 3991500378380867264, guid: 60eb5a459d7e9f84ca417b73f4d44c2d,
+      type: 3}
+    gunmode: 
+    bulletspeed: 45
+    shotmaxtime: 1.15
+    roadmaxtime: 2.3
+    maxbulletnumber: 12
+    bulletnumber: 12
+    itemname2: Rabbit launcher
+    itemscript2: A ricochet gun created by Dr. Origin's research using the jumping
+      power of rabbits.
+    inputeventnumber: 4
+    strengthen: 0
+  - itemname: "\u30B9\u30AB\u30A4\u30A8\u30CA\u30B8\u30FC\u30AC\u30F3"
+    itemscript: "\u30AA\u30EA\u30B8\u30F3\u535A\u58EB\u306E\u7814\u7A76\u306B\u3088\u3063\u3066\u3001\u6575\u3092\u30CE\u30C3\u30AF\u30D0\u30C3\u30AF\u3055\u305B\u308B\u3053\u3068\u3092\u53EF\u80FD\u306B\u3057\u305F\u30CF\u30F3\u30C9\u30AC\u30F3\u3002"
+    itemimage: {fileID: 8400000, guid: 548a5fcd0678c7f408ecea1c53e4726a, type: 2}
+    upAttack: 3
+    itemprice: 22
+    getTrigger: 0
+    itemobj: {fileID: 1005020667396263119, guid: 82184bc48c98e0545865e7e72107c8a2,
+      type: 3}
+    shotobj: {fileID: 1998371412311780032, guid: 6cbfb9f94e258b447a362fb579ff9344,
+      type: 3}
+    gunmode: 
+    bulletspeed: 45
+    shotmaxtime: 1
+    roadmaxtime: 3
+    maxbulletnumber: 15
+    bulletnumber: 15
+    itemname2: Sky energy gun
+    itemscript2: A handgun that knock back enemies, created by Dr. Origin's research.
+    inputeventnumber: 4
+    strengthen: 0
+  - itemname: "\u30D5\u30EC\u30A4\u30E0\u30B7\u30E7\u30C3\u30C8\u30AC\u30F3"
+    itemscript: "\u30AA\u30EA\u30B8\u30F3\u535A\u58EB\u306E\u7814\u7A76\u306B\u3088\u3063\u3066\u767A\u660E\u3055\u308C\u305F\u6575\u3092\u71C3\u3084\u3059\u30B7\u30E7\u30C3\u30C8\u30AC\u30F3\u3002"
+    itemimage: {fileID: 8400000, guid: 348af36539db7fe479f787082641df51, type: 2}
+    upAttack: 5
+    itemprice: 28
+    getTrigger: 0
+    itemobj: {fileID: 2807598767695895015, guid: 2b4d0f869104ca34e8d277a3dfe1117c,
+      type: 3}
+    shotobj: {fileID: 2759322849488913538, guid: 0a87b1ece33ee5c40ac3af42aee93e65,
+      type: 3}
+    gunmode: 
+    bulletspeed: 36
+    shotmaxtime: 1.45
+    roadmaxtime: 4.3
+    maxbulletnumber: 13
+    bulletnumber: 13
+    itemname2: Flame Shotgun
+    itemscript2: A shotgun that burns enemies, invented by Dr. Origin's research.
+    inputeventnumber: 6
+    strengthen: 0
+  - itemname: "\u30D5\u30ED\u30B9\u30C8\u30AC\u30F3"
+    itemscript: "\u30AA\u30EA\u30B8\u30F3\u535A\u58EB\u306E\u7814\u7A76\u306B\u3088\u3063\u3066\u767A\u660E\u3055\u308C\u305F\u6575\u306E\u52D5\u304D\u3092\u6B62\u3081\u308B\u30B5\u30D6\u30DE\u30B7\u30F3\u30AC\u30F3\u3002"
+    itemimage: {fileID: 8400000, guid: 7802cfe60f27838469ae8430f057d6ed, type: 2}
+    upAttack: -2
+    itemprice: 30
+    getTrigger: 0
+    itemobj: {fileID: 4999205027645917336, guid: 59ddedc0ad0863a4bafd4c4d930d2f0a,
+      type: 3}
+    shotobj: {fileID: 8876604009329640725, guid: 73aeab32ccb86e34b9489d1a1f98c6ba,
+      type: 3}
+    gunmode: 
+    bulletspeed: 40
+    shotmaxtime: 0.15
+    roadmaxtime: 3
+    maxbulletnumber: 20
+    bulletnumber: 20
+    itemname2: Frost gun
+    itemscript2: A submachine gun invented by Dr. Origin's research to stop the enemy's
+      movement.
+    inputeventnumber: 6
+    strengthen: 0
+  - itemname: "\u30A2\u30D6\u30BD\u30EA\u30E5\u30FC\u30C8\u30E9\u30A4\u30D5\u30EB"
+    itemscript: "\u30AA\u30EA\u30B8\u30F3\u535A\u58EB\u306E\u7814\u7A76\u306B\u3088\u3063\u3066\u767A\u660E\u3055\u308C\u305F\u6575\u306E\u52D5\u304D\u3092\u9577\u304F\u6B62\u3081\u308B\u30B9\u30CA\u30A4\u30D1\u30FC\u30E9\u30A4\u30D5\u30EB\u3002"
+    itemimage: {fileID: 8400000, guid: 115859367e6d0644b809a430d7c2ede8, type: 2}
+    upAttack: 7
+    itemprice: 33
+    getTrigger: 0
+    itemobj: {fileID: 5250196521350689104, guid: 55fecbd5eef268e4fa12c130caf761ac,
+      type: 3}
+    shotobj: {fileID: 4343406733353385341, guid: 1f896f51803fe464cb0f9c0688d1d9c0,
+      type: 3}
+    gunmode: 
+    bulletspeed: 56
+    shotmaxtime: 1.3
+    roadmaxtime: 4
+    maxbulletnumber: 8
+    bulletnumber: 8
+    itemname2: Absolute rifle
+    itemscript2: A sniper rifle invented by Dr. Origin's research to stop the enemy's
+      movement for a long time.
+    inputeventnumber: 6
+    strengthen: 0
+  - itemname: "\u30DD\u30A4\u30BA\u30CA\u30FC\u30E9\u30A4\u30D5\u30EB"
+    itemscript: "\u30AA\u30EA\u30B8\u30F3\u535A\u58EB\u306E\u7814\u7A76\u306B\u3088\u3063\u3066\u767A\u660E\u3055\u308C\u305F\u6575\u3092\u6BD2\u72B6\u614B\u306B\u3059\u308B\u30A2\u30B5\u30EB\u30C8\u30E9\u30A4\u30D5\u30EB\u3002"
+    itemimage: {fileID: 8400000, guid: 481339958416a75408a7f64a1bb5fa86, type: 2}
+    upAttack: -1
+    itemprice: 50
+    getTrigger: 0
+    itemobj: {fileID: 2248058078632120854, guid: b86d0e9b6d749dc48a9310e8dfbe20e3,
+      type: 3}
+    shotobj: {fileID: 1226854589209705070, guid: fd79c8209c89812498da3a43f894191c,
+      type: 3}
+    gunmode: 
+    bulletspeed: 45
+    shotmaxtime: 0.2
+    roadmaxtime: 3
+    maxbulletnumber: 32
+    bulletnumber: 32
+    itemname2: Poisoner rifle
+    itemscript2: An assault rifle invented by Dr. Origin's research to poison the
+      enemy.
+    inputeventnumber: 8
+    strengthen: 0
+  - itemname: "\u30C7\u30B9\u30C8\u30ED\u30A4\u30D0\u30BA\u30FC\u30AB"
+    itemscript: "\u30AA\u30EA\u30B8\u30F3\u535A\u58EB\u306E\u7814\u7A76\u306B\u3088\u3063\u3066\u767A\u660E\u3055\u308C\u305F\u5168\u3066\u3092\u7834\u58CA\u3059\u308B\u30D0\u30BA\u30FC\u30AB\u3002"
+    itemimage: {fileID: 8400000, guid: ac3674426d2d7ff4f9ce77cf5a153ab1, type: 2}
+    upAttack: 13
+    itemprice: 100
+    getTrigger: 0
+    itemobj: {fileID: 6662128481206177444, guid: 0d4f0dcbca4cab7498f10cc43d1f6c3a,
+      type: 3}
+    shotobj: {fileID: 8328054219992870275, guid: d6ec3412817f1fd4dbb1a214542c164a,
+      type: 3}
+    gunmode: 
+    bulletspeed: 30
+    shotmaxtime: 1
+    roadmaxtime: 3
+    maxbulletnumber: 2
+    bulletnumber: 2
+    itemname2: Destroy bazooka
+    itemscript2: A bazooka that destroys everything, invented by Dr. Origin's research.
+    inputeventnumber: 8
+    strengthen: 0
+  - itemname: "\u535A\u58EB\u5F0F\u30B4\u30FC\u30EB\u30C7\u30F3\u30EA\u30DC\u30EB\u30D0\u30FC"
+    itemscript: "\u30AA\u30EA\u30B8\u30F3\u535A\u58EB\u306E\u7814\u7A76\u306B\u3088\u3063\u3066\u767A\u660E\u3055\u308C\u305F\u30E9\u30F3\u30C0\u30E0\u306B\u52B9\u679C\u3092\u4ED8\u4E0E\u3059\u308B\u5E78\u904B\u306E\u30EA\u30DC\u30EB\u30D0\u30FC\u3002"
+    itemimage: {fileID: 8400000, guid: cc46e4484a0644b40ac4872c3be4a9d8, type: 2}
+    upAttack: 9
+    itemprice: 70
+    getTrigger: 0
+    itemobj: {fileID: 6581111143568933620, guid: 8d53c7d20d75cb6418cb4f3488f2f338,
+      type: 3}
+    shotobj: {fileID: 8336428128954387395, guid: f548c91813326024ea4fa7e0e2d6adb8,
+      type: 3}
+    gunmode: 
+    bulletspeed: 36
+    shotmaxtime: 0.5
+    roadmaxtime: 2.3
+    maxbulletnumber: 10
+    bulletnumber: 10
+    itemname2: Dr. Golden Revolver
+    itemscript2: A luck revolver that randomly grants effects invented by Dr. Origin's
+      research.
+    inputeventnumber: 8
+    strengthen: 0
+  - itemname: "\u30DD\u30A4\u30BA\u30F3\u30D0\u30FC\u30B9\u30C8"
+    itemscript: "\u30AA\u30EA\u30B8\u30F3\u535A\u58EB\u306E\u7814\u7A76\u306B\u3088\u3063\u3066\u767A\u660E\u3055\u308C\u305F\u6BD2\u3092\u4ED8\u4E0E\u3059\u308B5\u9023\u30B7\u30E7\u30C3\u30C8\u30AC\u30F3\u3002"
+    itemimage: {fileID: 8400000, guid: 04de5b4e93132504d888e1369b968037, type: 2}
+    upAttack: 10
+    itemprice: 100
+    getTrigger: 0
+    itemobj: {fileID: 5769797350458298234, guid: 8ab061fb399913b4390965ff70f5f70c,
+      type: 3}
+    shotobj: {fileID: 6906872299657371583, guid: 24134fe8b65055a438b06aad586445e7,
+      type: 3}
+    gunmode: 
+    bulletspeed: 40
+    shotmaxtime: 1
+    roadmaxtime: 3
+    maxbulletnumber: 15
+    bulletnumber: 15
+    itemname2: Poison Burst
+    itemscript2: A five-round shotgun that imparts poison invented by Dr. Origin's
+      research.
+    inputeventnumber: 10
+    strengthen: 0
+  - itemname: "\u30A4\u30F3\u30D5\u30A7\u30EB\u30CE\u30D6\u30EA\u30B6\u30FC\u30C9"
+    itemscript: "\u30AA\u30EA\u30B8\u30F3\u535A\u58EB\u304C\u30A2\u30D6\u30BD\u30EA\u30E5\u30FC\u30C8\u30E9\u30A4\u30D5\u30EB\u3092\u8EF8\u306B\u518D\u958B\u767A\u3055\u308C\u305F\u3001\u6575\u3092\u51CD\u3066\u3064\u304B\u305B\u71C3\u3084\u3057\u5C3D\u304F\u3059\u30B9\u30CA\u30A4\u30D1\u30FC\u30E9\u30A4\u30D5\u30EB\u306E\u6700\u7D42\u5F62\u614B\u3002"
+    itemimage: {fileID: 8400000, guid: cae24f86e571392409bbf9efd001bafc, type: 2}
+    upAttack: 16
+    itemprice: 160
+    getTrigger: 0
+    itemobj: {fileID: 4296588720161504406, guid: 43f1e48dc42fbfb43b846dfdfcd37ff8,
+      type: 3}
+    shotobj: {fileID: 2552950772543547942, guid: 0e8616726e20df0439493ce96991acfe,
+      type: 3}
+    gunmode: 
+    bulletspeed: 64
+    shotmaxtime: 1
+    roadmaxtime: 3.2
+    maxbulletnumber: 12
+    bulletnumber: 12
+    itemname2: Inferno Blizzard
+    itemscript2: The final form of the sniper rifle that freezes and burns the enemy,
+      redeveloped around Dr. Origin's Absolute Rifle.
+    inputeventnumber: 10
+    strengthen: 0
+  - itemname: "\u30AC\u30F3\u30D1\u30A4\u30A2"
+    itemscript: "\u30AA\u30EA\u30B8\u30F3\u535A\u58EB\u306E\u7814\u7A76\u306B\u3088\u3063\u3066\u767A\u660E\u3055\u308C\u305F\u6575\u306EHP\u3092\u5438\u53CE\u3059\u308B\u9283\u3002"
+    itemimage: {fileID: 8400000, guid: b4e8f9f15e4609f4f96fe4dfd86ac9ca, type: 2}
+    upAttack: 8
+    itemprice: 200
+    getTrigger: 0
+    itemobj: {fileID: 2993290783990930619, guid: a00f6da69e1e3f74281e148bb822b6f1,
+      type: 3}
+    shotobj: {fileID: 5773246824741801621, guid: e6e5638bd4bf3e44f8c785ef83d5d24e,
+      type: 3}
+    gunmode: 
+    bulletspeed: 40
+    shotmaxtime: 0.45
+    roadmaxtime: 2
+    maxbulletnumber: 10
+    bulletnumber: 10
+    itemname2: Vampire Gun
+    itemscript2: A gun that absorbs the HP of enemies, invented by Dr. Origin's research.
+    inputeventnumber: 10
+    strengthen: 0
+  - itemname: "\u30CD\u30AA\u30EC\u30FC\u30EB\u30AC\u30F3"
+    itemscript: "\u795E\u304C\u6240\u6301\u3057\u3066\u3044\u305F\u96FB\u78C1\u7832\u3002\u62E1\u6563\u3057\u3001\u7740\u5F3E\u3068\u540C\u6642\u306B\u7BC4\u56F2\u30C0\u30E1\u30FC\u30B8\u304C\u767A\u751F\u3057\u3066\u6575\u3092\u51CD\u3066\u3064\u304B\u305B\u71C3\u3084\u3059"
+    itemimage: {fileID: 8400000, guid: 970da10412daf5640bdc6d19e1b71d98, type: 2}
+    upAttack: 20
+    itemprice: 300
+    getTrigger: 0
+    itemobj: {fileID: 7544604324337642698, guid: 5a758e46085245b4ab0553375e7ec364,
+      type: 3}
+    shotobj: {fileID: 4274834763877625565, guid: 555170f885669c84d8b1869ab3312777,
+      type: 3}
+    gunmode: 
+    bulletspeed: 56
+    shotmaxtime: 0.45
+    roadmaxtime: 2
+    maxbulletnumber: 16
+    bulletnumber: 16
+    itemname2: God Railgun
+    itemscript2: An electromagnetic cannon that God used to use. It diffuses, and
+      as soon as it hits the target, range damage is generated, freezing and burning
+      the enemy.
+    inputeventnumber: 16
+    strengthen: 0
+  itemselect: 0
+  shopID: ffffffffffffffffffffffff
+  shopNumber: 000000000000000000000000
+  shopID2: ffffffffffffffffffffffff
+  shopNumber2: 000000000000000000000000
+  Pstatus:
+    maxHP: 8
+    health: 8
+    speed: 13
+    defense: 0
+    attack: 0
+    Lv: 1
+    maxExp: 20
+    inputExp: 0
+  SkillID:
+  - skillname: "\u670D\u5F93<\u5B88\u308B\u3079\u304D\u4F7F\u547D>"
+    skillname2: Obedience<Mission to Protect>
+    bossname: "\u30A2\u30F3\u30CE\u30A6\u30F3\u30BD\u30EB\u30B8\u30E3\u30FC"
+    bossname2: Unknown Soldier
+    bossimage: {fileID: 8400000, guid: cff838173160d2d42a481acd7daf776a, type: 2}
+    skillscript: "\u52B9\u679C\u6642\u95938\u79D2\u3067\u3001\n\u7D50\u754C\u3092\u5C55\u958B\u3057\u3066\u6575\u306E\u9060\u8DDD\u96E2\u653B\u6483\u3092\u7121\u52B9\u5316\u3059\u308B\u3002\n20\u56DE\u653B\u6483\u3092\u5F53\u3066\u308B\u3068\u518D\u4F7F\u7528\u53EF\u80FD\u3002"
+    skillscript2: "The effect lasts 8 seconds, and deploys a warding effect to nullify
+      enemy long range attacks.\r\nCan be reused after 20 attacks."
+    bossscript: "\u4E3B\u4EBA\u306E\u547D\u4EE4\u306B\u3057\u304B\u5F93\u308F\u305A\u3001\u4E3B\u4EBA\u306E\u547D\u4EE4\u3067\n\u30E1\u30A4\u30C9\u306E\u7CE7\u3068\u306A\u308A\u3001\u3053\u306E\u8EAB\u3092\u6367\u3052\u308B\u3002\n\u8B0E\u591A\u304D\u6226\u95D8\u7279\u5316\u578B\u5175\u58EB\u30ED\u30DC\u2026\n\u30E1\u30A4\u30C9\u3068\u6DF1\u3044\u95A2\u308F\u308A\u304C\u3042\u308B\u3088\u3046\u3060\u3002"
+    bossscript2: "He only obeys his master's orders and devotes himself to helping
+      the maids.\r\nA mysterious soldier robot...\r\nHe seems to have a deep connection
+      with the maids."
+    skillget: 0
+    skillmaxbar: 20
+    inputskillbar: 0
+    skillicon: {fileID: 21300000, guid: 3107dea5fccce2f4ebc0e6303acced6a, type: 3}
+    skillitem: {fileID: 4129863689410534283, guid: 2b8849d251c5c4f46b47afd9a344b387,
+      type: 3}
+    buttonNumber: 1
+    notrg: 0
+  - skillname: "\u81EA\u52D5\u56DE\u5FA9AI"
+    skillname2: Automatic recovery AI
+    bossname: 
+    bossname2: 
+    bossimage: {fileID: 8400000, guid: cff838173160d2d42a481acd7daf776a, type: 2}
+    skillscript: 
+    skillscript2: 
+    bossscript: 
+    bossscript2: 
+    skillget: 0
+    skillmaxbar: 16
+    inputskillbar: 0
+    skillicon: {fileID: 21300000, guid: 87aa839bad7ed774baf2d27080fb586d, type: 3}
+    skillitem: {fileID: 4880107971438656001, guid: cc7213761c6ed2c4c8d7fd959834b15c,
+      type: 3}
+    buttonNumber: 0
+    notrg: 0
+  - skillname: "\u81EA\u52D5\u653B\u6483AI"
+    skillname2: Automatic Attack AI
+    bossname: 
+    bossname2: 
+    bossimage: {fileID: 8400000, guid: cff838173160d2d42a481acd7daf776a, type: 2}
+    skillscript: 
+    skillscript2: 
+    bossscript: 
+    bossscript2: 
+    skillget: 0
+    skillmaxbar: 30
+    inputskillbar: 0
+    skillicon: {fileID: 21300000, guid: 49c3e3bd499f61d4c90fbe3798ca11da, type: 3}
+    skillitem: {fileID: 4880107971438656001, guid: cc7213761c6ed2c4c8d7fd959834b15c,
+      type: 3}
+    buttonNumber: 0
+    notrg: 0
+  - skillname: "\u53CD\u8EE2\u64CD\u4F5C"
+    skillname2: reversal operation
+    bossname: 
+    bossname2: 
+    bossimage: {fileID: 8400000, guid: cff838173160d2d42a481acd7daf776a, type: 2}
+    skillscript: 
+    skillscript2: 
+    bossscript: 
+    bossscript2: 
+    skillget: 0
+    skillmaxbar: 8
+    inputskillbar: 0
+    skillicon: {fileID: 21300000, guid: ba06a67ab4a51ff4cbc38c8c6a94d30f, type: 3}
+    skillitem: {fileID: 4880107971438656001, guid: cc7213761c6ed2c4c8d7fd959834b15c,
+      type: 3}
+    buttonNumber: 0
+    notrg: 0
+  - skillname: "\u611B\u618E<\u611B\u3059\u3079\u304D\u5B58\u5728>"
+    skillname2: Love and hate<Loveable>
+    bossname: "\u30AA\u30E9\u30AF\u30EB\u30B7\u30CB\u30E7\u30EA\u30FC\u30CA"
+    bossname2: Oracle signorina
+    bossimage: {fileID: 8400000, guid: 684190f0444526a4ab230a297cf54fd2, type: 2}
+    skillscript: "\u7279\u6B8A\u306A\u5098\u3092\u51FA\u73FE\u3055\u305B\u3001\n\u5098\u304B\u3089\u5F37\u529B\u306A\u30D3\u30FC\u30E0\u3092\u653E\u3064\u3002\n16\u56DE\u653B\u6483\u3092\u5F53\u3066\u308B\u3068\u518D\u4F7F\u7528\u53EF\u80FD\u3002"
+    skillscript2: "A special umbrella appears,\nThe umbrella shoots a powerful beam.\r\nCan
+      be reused after 16 attacks."
+    bossscript: "\u3054\u4E3B\u4EBA\u69D8\u3092\u611B\u3057\u3001\n\u611B\u3055\u308C\u306A\u304B\u3063\u305F\u304A\u5B22\u69D8\u578B\u30AB\u30E9\u30AF\u30EA\u3002\n\u30E1\u30A4\u30C9\u3068\u306F\u56E0\u7E01\u306E\u4EF2\u3067\u3001\n\u30A6\u30A4\u30EB\u30B9\u306B\u3088\u3063\u3066\u305D\u306E\u611B\u306F\u919C\u304F\u306A\u3063\u3066\u3057\u307E\u3063\u305F\u3002\n"
+    bossscript2: "A young lady-type karakuri who loved her master and was not loved
+      by him.\r\nShe has a history with the maid. The virus has turned that love ugly."
+    skillget: 0
+    skillmaxbar: 16
+    inputskillbar: 0
+    skillicon: {fileID: 21300000, guid: 811ae2444a801ff46ac4a123dd477f9c, type: 3}
+    skillitem: {fileID: 2520060811140633047, guid: c7a8d96ebbe9cb54fa5200a989d95120,
+      type: 3}
+    buttonNumber: 2
+    notrg: 0
+  - skillname: "\u30B3\u30A4\u30F3\u30DC\u30FC\u30CA\u30B9"
+    skillname2: Coin Bonus
+    bossname: 
+    bossname2: 
+    bossimage: {fileID: 8400000, guid: 684190f0444526a4ab230a297cf54fd2, type: 2}
+    skillscript: 
+    skillscript2: 
+    bossscript: 
+    bossscript2: 
+    skillget: 0
+    skillmaxbar: 100
+    inputskillbar: 0
+    skillicon: {fileID: 21300000, guid: 8e0ef4698742f714b83ed5145b8b6747, type: 3}
+    skillitem: {fileID: 2520060811140633047, guid: c7a8d96ebbe9cb54fa5200a989d95120,
+      type: 3}
+    buttonNumber: 2
+    notrg: 0
+  - skillname: "\u5FA9\u8B90<\u7F6A\u3092\u88C1\u304F\u8005>"
+    skillname2: Vengeance<He who judges sin>
+    bossname: "\u30AB\u30E9\u30DF\u30C6\u30A3\u30D0\u30C8\u30E9\u30FC"
+    bossname2: Calamity Butler
+    bossimage: {fileID: 8400000, guid: 091eb3a0196be8347a820a6787f26b5a, type: 2}
+    skillscript: "\u9B54\u6CD5\u9663\u3092\u5C55\u958B\u3057\u3001\n\u305D\u306E\u7BC4\u56F2\u306B\u30CA\u30A4\u30D5\u306E\u96E8\u304C\u964D\u308A\u6CE8\u3050\u3002\n12\u56DE\u653B\u6483\u3092\u5F53\u3066\u308B\u3068\u518D\u4F7F\u7528\u53EF\u80FD\u3002"
+    skillscript2: "He deploys a magic circle,\r\nA rain of knives falls on the area.\r\nCan
+      be used again after 12 attacks."
+    bossscript: "\u30E1\u30A4\u30C9\u3068\u5171\u306B\u3054\u4E3B\u4EBA\u69D8\u306B\u4ED5\u3048\u305F\u6700\u53E4\u306E\u4F7F\u7528\u4EBA\u3002\n\u3054\u4E3B\u4EBA\u69D8\u3092\u5B88\u308B\u3053\u3068\u304C\u3067\u304D\u305A\u3001\u5F8C\u6094\u3057\u3001\u5FA9\u8B90\u3092\u8A93\u3063\u305F\u3002\n\u88C1\u304F\u8005\u3068\u3057\u3066\u30E1\u30A4\u30C9\u3092\u898B\u6975\u3081\u3001\u4F7F\u547D\u3092\u8A17\u3059\u3002"
+    bossscript2: "The oldest servant who served his master along with his maid.\r\nHe
+      could not protect his master, regretted it, and swore revenge.\r\nHe will see
+      if the maid can take revenge and entrust her with his mission."
+    skillget: 0
+    skillmaxbar: 12
+    inputskillbar: 0
+    skillicon: {fileID: 21300000, guid: 76cd2e8bfea47a242ac5b58338bbbe69, type: 3}
+    skillitem: {fileID: 7014254914977195958, guid: f5fc467daeda49d4e80284d31fe869ca,
+      type: 3}
+    buttonNumber: 3
+    notrg: 0
+  - skillname: "\u6642\u9650\u7206\u5F3E"
+    skillname2: Time bomb
+    bossname: 
+    bossname2: 
+    bossimage: {fileID: 8400000, guid: 091eb3a0196be8347a820a6787f26b5a, type: 2}
+    skillscript: 
+    skillscript2: 
+    bossscript: 
+    bossscript2: 
+    skillget: 0
+    skillmaxbar: 8
+    inputskillbar: 0
+    skillicon: {fileID: 21300000, guid: 814ddbbf889b5614a91e8e626ce771f9, type: 3}
+    skillitem: {fileID: 7014254914977195958, guid: f5fc467daeda49d4e80284d31fe869ca,
+      type: 3}
+    buttonNumber: 0
+    notrg: 0
+  - skillname: "\u7A7A\u865A<\u5927\u5730\u30F2\u6EC5\u30B9\u30EB\u7D42\u7109\u30CE\u6642>"
+    skillname2: emptiness<The Power of the End>
+    bossname: "\u30C9\u30E9\u30B4\u30ED\u30A4\u30C9"
+    bossname2: Drago Roid
+    bossimage: {fileID: 8400000, guid: 44edc758c27f85e4d8a66b2454ff3e5e, type: 2}
+    skillscript: "\u9B54\u6CD5\u9663\u3092\u5C55\u958B\u3057\u3001\n\u524D\u65B9\u306B\u5168\u3066\u3092\u58CA\u3059\u9695\u77F3\u3092\u98DB\u3070\u3059\u3002\n28\u56DE\u653B\u6483\u3092\u5F53\u3066\u308B\u3068\u518D\u4F7F\u7528\u53EF\u80FD\u3002"
+    skillscript2: "Deploys a magic circle and\n sends a meteorite forward.\r\nCan
+      be used again after 28 attacks."
+    bossscript: "\u3054\u4E3B\u4EBA\u69D8\u306B\u62FE\u308F\u308C\u3001\u697D\u3057\u3055\u3092\u899A\u3048\u305F\u30C9\u30E9\u30B4\u30F3\u578B\u30AB\u30E9\u30AF\u30EA\u3002\n\u3054\u4E3B\u4EBA\u69D8\u306F\u30E1\u30A4\u30C9\u3078\u76EE\u79FB\u308A\u3057\u3001\u6B21\u7B2C\u306B\u653E\u7F6E\u3055\u308C\u308B\u2026\n\u3084\u304C\u3066\u7A7A\u865A\u3068\u306A\u308A\u3001\u30E1\u30A4\u30C9\u3092\u6068\u3093\u3060\u3002\n\u305D\u306E\u6C17\u306B\u306A\u308C\u3070\u4E16\u754C\u3092\u58CA\u305B\u308B\u3089\u3057\u3044\u3002"
+    bossscript2: "She was picked up by her master and\r\n learned to enjoy herself.\r\nHowever,
+      the master shifted his attention to the maid, \r\nand gradually she was neglected...\r\nEventually,
+      she felt empty and resented the maid.\r\nIt seems that she can destroy the world
+      if she wants to."
+    skillget: 0
+    skillmaxbar: 28
+    inputskillbar: 0
+    skillicon: {fileID: 21300000, guid: fdcd5452a6e451f47b78b46a1b4b1f5a, type: 3}
+    skillitem: {fileID: 374008037046240949, guid: bc985403991801043b7a5b9252f6552d,
+      type: 3}
+    buttonNumber: 4
+    notrg: 0
+  - skillname: "\u4FE1\u983C<\u7D46\u306E\u529B>"
+    skillname2: trust<The Power of bonds>
+    bossname: "\u30A2\u30F3\u30CE\u30A6\u30F3\u30BD\u30EB\u30B8\u30E3\u30FC -\u899A\u9192-"
+    bossname2: Unknown Soldier -Awakening-
+    bossimage: {fileID: 8400000, guid: 7b09080ae5a61274cac424eab2010bc1, type: 2}
+    skillscript: "\u6700\u7D42\u6C7A\u6226\u306E\u6642\u3001\n\u30A2\u30F3\u30CE\u30A6\u30F3\u30BD\u30EB\u30B8\u30E3\u30FC\u3068\u306E\u7D46\u304C\u767A\u63EE\u3059\u308B\u3002\n2\u4EBA\u306E\u529B\u3092\u5408\u308F\u305B\u308C\u3070\u3001\u771F\u306E\u60AA\u3092\u88C1\u3051\u308B\u3060\u308D\u3046\u2026"
+    skillscript2: "During the final battle. \r\nThe bond between you and the\r\n Unknown
+      Soldier will be demonstrated.\r\nTogether, \r\nthe two of you will bring true
+      evil to justice..."
+    bossscript: "\u30A6\u30A4\u30EB\u30B9\u306E\u546A\u7E1B\u3092\u514B\u670D\u3057\u3001\n\u81EA\u5206\u306E\u529B\u3078\u3068\u5909\u63DB\u3057\u305F\u771F\u306E\u59FF\u3002\n\u3082\u306F\u3084\u4E3B\u4EBA\u306E\u547D\u4EE4\u304C\u7121\u304F\u3066\u3082\u3001\n\u30E1\u30A4\u30C9\u306E\u305F\u3081\u306A\u3089\u81EA\u5206\u3092\u6367\u3052\u308B\u6C7A\u610F\u304C\u3042\u308B\u3089\u3057\u3044\u3002"
+    bossscript2: "The true form that overcame the curse of the\r\n virus and transformed
+      it into her own power.\r\nIt seems that she is determined to\r\n devote herself
+      to her maid,\r\n even without her master's orders."
+    skillget: 0
+    skillmaxbar: 999
+    inputskillbar: 0
+    skillicon: {fileID: 21300000, guid: fdcd5452a6e451f47b78b46a1b4b1f5a, type: 3}
+    skillitem: {fileID: 374008037046240949, guid: bc985403991801043b7a5b9252f6552d,
+      type: 3}
+    buttonNumber: 0
+    notrg: 1
+  - skillname: "\u5E0C\u671B<\u6700\u5F8C\u306E\u6226\u3044>"
+    skillname2: Hope <The Last Battle>
+    bossname: "\u30F4\u30A1\u30EB\u30AD\u30EA\u30FC\u30ED\u30A4\u30C9"
+    bossname2: Valkyrie Roid
+    bossimage: {fileID: 8400000, guid: a88bb2557c3cd864f8933529ef9026b3, type: 2}
+    skillscript: "\u6700\u5F8C\u306E\u30B9\u30C6\u30FC\u30B8\u3067\u306E\u307F\u3001\n\u4EE5\u4E0B\u306E\u52B9\u679C\u5168\u3066\u3092\u9069\u7528\u3067\u304D\u308B\u3002\n\u30FBHP\u3001\u9306\u3001\u5F3E\u6570\u3092\u5168\u56DE\u5FA9\u3059\u308B\n\u30FB\u4E00\u5B9A\u6642\u9593\u9060\u8DDD\u96E2\u653B\u6483\u304B\u3089\u5B88\u308B\n\u30FB\u30B9\u30D4\u30FC\u30C9\u304C\u901F\u304F\u306A\u308A\u30012\u6BB5\u30B8\u30E3\u30F3\u30D7\u53EF\u80FD\u306B\n\u30FB\u5168\u3066\u306E\u30C0\u30E1\u30FC\u30B8\u30921\u306B\u3059\u308B"
+    skillscript2: "All of the following effects can be\r\n applied only in the last
+      stage.\r\n\u30FBRecovers all HP, rust, and ammo.\r\n\u30FBProtects from long
+      range attacks for a certain amount of time\r\n\u30FBSpeed is increased and you
+      can jump two steps.\n\u30FBReduce all damage to 1."
+    bossscript: "\u3054\u4E3B\u4EBA\u69D8\u306E\u5C4B\u6577\u3092\u5B88\u308A\u7D9A\u3051\u305F\u30AB\u30E9\u30AF\u30EA\u3002\n\u30A2\u30F3\u30CE\u30A6\u30F3\u30BD\u30EB\u30B8\u30E3\u30FC\u3068\u304B\u306A\u308A\u4EF2\u304C\u826F\u304B\u3063\u305F\u3089\u3057\u304F\u3001\n\u4FE1\u983C\u3057\u5408\u3063\u3066\u3044\u305F\u3088\u3046\u3060\u3002\n\u30E1\u30A4\u30C9\u3068\u3082\u8A71\u3057\u76F8\u624B\u3068\u3057\u3066\u983B\u7E41\u306B\u4F1A\u3063\u3066\u3044\u305F\u3002"
+    bossscript2: "Karakuri, who continued to protect her master's mansion.\r\nThe
+      Valkyrie and the Unknown Soldier seemed to be\r\n good friends and trusted each
+      other.\r\nValkyrie frequently met with the maids as well to talk."
+    skillget: 0
+    skillmaxbar: 100
+    inputskillbar: 0
+    skillicon: {fileID: 21300000, guid: 593b9c03d8b583a42956b4da8f254e9e, type: 3}
+    skillitem: {fileID: 1883109206741923961, guid: 2f5d4c4495fddf4428baaac46d066706,
+      type: 3}
+    buttonNumber: 5
+    notrg: 0
+  - skillname: "\u81F4\u547D\u50B7"
+    skillname2: fatal wound
+    bossname: 
+    bossname2: 
+    bossimage: {fileID: 8400000, guid: a88bb2557c3cd864f8933529ef9026b3, type: 2}
+    skillscript: 
+    skillscript2: 
+    bossscript: 
+    bossscript2: 
+    skillget: 0
+    skillmaxbar: 2
+    inputskillbar: 0
+    skillicon: {fileID: 21300000, guid: 71f717d4eef773b41839084840c42552, type: 3}
+    skillitem: {fileID: 1883109206741923961, guid: 2f5d4c4495fddf4428baaac46d066706,
+      type: 3}
+    buttonNumber: 0
+    notrg: 1
+  - skillname: "\u7D76\u671B<\u7D42\u7109\u3092\u898B\u5C4A\u3051\u308B\u8005>"
+    skillname2: Despair<The one who sees the end>
+    bossname: "\u30AA\u30EA\u30B8\u30F3\u535A\u58EB"
+    bossname2: Dr. Origin.
+    bossimage: {fileID: 8400000, guid: 718783d7c4aa3304a9eac15e83658543, type: 2}
+    skillscript: "\u3053\u306E\u30B9\u30AD\u30EB\u306B\u546A\u308F\u308C\u305F\u8005\u304C\u7D76\u671B\u3057\u305F\u6642\u3001\n\u4E16\u754C\u306F\u7D42\u7109\u3092\u8FCE\u3048\u308B\u3002"
+    skillscript2: "When those cursed with this skill despair,\r\nThe world will come
+      to an end."
+    bossscript: "\u4EBA\u9593\u306B\u9177\u4F7F\u3055\u308C\u3066\u305F\u904E\u53BB\u304C\u3042\u308A\u3001\r\n\u3054\u4E3B\u4EBA\u69D8\u306E\u624B\u306B\u3088\u3063\u3066\u6551\u308F\u308C\u305F\u3002\r\n\u30AB\u30E9\u30AF\u30EA\u3068\u3054\u4E3B\u4EBA\u69D8\u304C\u4F4F\u307F\u3084\u3059\u3044\u4E16\u754C\u3078\u5909\u3048\u3088\u3046\u3068\u3057\u3066\u3001\n\u4ED6\u306E\u4EBA\u9593\u3092\u30A6\u30A4\u30EB\u30B9\u3067\u6EC5\u307C\u305D\u3046\u3068\u3057\u305F\u3002\r\n\u6614\u306F\u30E1\u30A4\u30C9\u3068\u89AA\u3057\u304B\u3063\u305F\u2026"
+    bossscript2: "He has a history of being mistreated by humans,\r\nHe was saved
+      by his master.\r\nIn order to make the world a better place for \r\nKarakuri
+      and her master to live in, she tried to\r\n destroy the other humans with a
+      virus.\r\nShe used to be close to her maid..."
+    skillget: 0
+    skillmaxbar: 999
+    inputskillbar: 0
+    skillicon: {fileID: 21300000, guid: 71f717d4eef773b41839084840c42552, type: 3}
+    skillitem: {fileID: 1883109206741923961, guid: 2f5d4c4495fddf4428baaac46d066706,
+      type: 3}
+    buttonNumber: 0
+    notrg: 1
+  skillselect: -1
+  skillsay: 
+  Sgetsay: 0
+  Iexpobj: {fileID: 4479086900769527503, guid: b08c803fe76f9f04b83333b16436e193, type: 3}
+  lvobj: {fileID: 4918465581471275441, guid: 2be4828590d65544093715ec0d7c7f45, type: 3}
+  damageeffect: {fileID: 6784798352111676354, guid: 7bd3371bd657c0c4fb8000feb50bec5a,
+    type: 3}
+  shoteffect: {fileID: 6337291473775273860, guid: 78597d17da78a1e4fbde53ef605903cc,
+    type: 3}
+  killeffect: {fileID: 5828522093382944101, guid: 30fcb486c7b9ff74fa91272c6b307432,
+    type: 3}
+  bosskilleffect: {fileID: 6551885955339952043, guid: 1beff40b6db3a234786191b2b5cc2578,
+    type: 3}
+  lvupeffect: {fileID: 3791447686385689115, guid: b92b03bb778e14d489f11e71317826b4,
+    type: 3}
+  impacteffect: {fileID: 3086014582416872374, guid: da41572b5198f0f4a9c000a88db26f7e,
+    type: 3}
+  monsterse: {fileID: 0}
+  animmode: -1
+  Triggers: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  SceneText: 
+  spawnUI: {fileID: 0}
+  skillnumber: -1
+  skillobj:
+  - {fileID: 7597136343743512754, guid: f02600b3d6b880d48ba9029da3a98367, type: 3}
+  - {fileID: 3420839292062275909, guid: 165dc970999a57e459bd5c52cc3e5670, type: 3}
+  - {fileID: 7773127150211483615, guid: 484f237b2a03cfb45bfc70e562ce3df1, type: 3}
+  - {fileID: 356151054728805937, guid: 6c1ba9840aa86c9419aaf342387b3062, type: 3}
+  - {fileID: 1164769133256915676, guid: a05a156565a85374f891f9414c276e0c, type: 3}
+  - {fileID: 2756839431467079313, guid: 765ce687f84674348b78fcc794585dcd, type: 3}
+  - {fileID: 3915069167856232607, guid: 6a46693b2a4b58c46b8e21d0359cd6e9, type: 3}
+  - {fileID: 6867525126706933743, guid: 6c009e845f1715b4b8fcdf25b1d064c1, type: 3}
+  - {fileID: 9065211891002577391, guid: c90877ecb1ac3c14d8d48b4af17a2a20, type: 3}
+  - {fileID: 3736356858576290893, guid: acc604b74c60e9d43a0bd2f78d8b41fd, type: 3}
+  - {fileID: 8040460283579718862, guid: a47f2f33c78e94d43b5727f41f5939e1, type: 3}
+  - {fileID: 7376282066117553591, guid: 1f7abe3931f5240439130d30ad8b15d5, type: 3}
+  - {fileID: 1789502513721053302, guid: 58718df7eecd38e46b5722c71ac6a987, type: 3}
+  expTargetTrg: 0
+  reduction: 0
+  ase:
+  - {fileID: 8300000, guid: cb6e7375873202943af6c0d63d08a3aa, type: 3}
+  sayobjname: 

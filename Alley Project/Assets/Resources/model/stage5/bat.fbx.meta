@@ -1,0 +1,234 @@
+fileFormatVersion: 2
+guid: 0b33c42a96b9b4f4b9bcc1979bef6b98
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: batbody
+    100004: bathead
+    100006: batwing
+    100008: batwing.001
+    100010: downbody
+    100012: head
+    100014: head_end
+    100016: leftdownwing
+    100018: leftdownwing_end
+    100020: leftleg
+    100022: leftleg_end
+    100024: leftupwing
+    100026: rightdownwing
+    100028: rightdownwing_end
+    100030: rightleg
+    100032: rightleg_end
+    100034: rightupwing
+    100036: upbody
+    100038: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+    400000: //RootNode
+    400002: batbody
+    400004: bathead
+    400006: batwing
+    400008: batwing.001
+    400010: downbody
+    400012: head
+    400014: head_end
+    400016: leftdownwing
+    400018: leftdownwing_end
+    400020: leftleg
+    400022: leftleg_end
+    400024: leftupwing
+    400026: rightdownwing
+    400028: rightdownwing_end
+    400030: rightleg
+    400032: rightleg_end
+    400034: rightupwing
+    400036: upbody
+    400038: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+    2100000: batdf
+    2100002: eyelight
+    2100004: black
+    2100006: bathana
+    2100008: siro
+    2100010: batmimi
+    4300000: batbody
+    4300002: bathead
+    4300004: batwing
+    4300006: batwing.001
+    7400000: batattack
+    7400002: batstand
+    9500000: //RootNode
+    13700000: batbody
+    13700002: bathead
+    13700004: batwing
+    13700006: batwing.001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: batdf
+    second: {fileID: 2100000, guid: 7a4dfcbfa7f453d4da8fa2d6d16a8d19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bathana
+    second: {fileID: 2100000, guid: d0bb5f09b9a3e6a4b8c2f15dcc006b35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: batmimi
+    second: {fileID: 2100000, guid: 056a1c03d1fe38545b0c0ad5245a3216, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: black
+    second: {fileID: 2100000, guid: 52ab2c27e499cb0448431b94cf1657f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eyelight
+    second: {fileID: 2100000, guid: d29cb99459f6b434f93002e04aa0e6ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: siro
+    second: {fileID: 2100000, guid: 91cfae5626efa354c8b3da3caa4cb25a, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: batattack
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|batattack"
+      firstFrame: 0
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: batstand
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|batstand"
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
